@@ -1,0 +1,95 @@
+
+
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-image: url('bg.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-inline-start: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #7ddeff8f;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-block-end-style: initial;
+    border-color: darkturquoise;
+    font-size: large;
+}
+
+button {
+    background-color: #d88e1f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: normal;
+    transition: inherit;
+}
+
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.invoice-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffd5ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+}
+
+
+.invoice-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff4545;
+}
+
+.invoice-details {
+    margin-bottom: 16px;
+    font-size: x-large;
+}
+
+.invoice-total {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3d3d3d;
+    text-align:right;
+}
+
+

@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Invoice</title>
+    
+
+</head>
+<body>
+    <div class="invoice-container">
+        <h2 class="invoice-heading">Invoice</h2>
+        <p class="invoice-details"><strong>Client Name:</strong> {{ client_name }}</p>
+        <p class="invoice-details"><strong>Product Name:</strong> {{ product_name }}</p>
+        <p class="invoice-details"><strong>Quantity:</strong> {{ quantity }}</p>
+        <p class="invoice-details"><strong>Price per unit:</strong> ${{ price }}</p>
+        <p class="invoice-total"><strong>Total Amount:</strong> ${{ total_amount }}</p>
+    </div>
+</body>
+</html>
